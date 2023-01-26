@@ -1,0 +1,932 @@
+html {
+    background: linear-gradient(rgb(0, 40, 92), rgb(7, 0, 46), rgb(0, 40, 92));
+    background-repeat: repeat-y;
+    display: flex;
+}
+
+body {
+    margin: 15px auto;
+    width: 70%;
+    background-color: rgb(29, 29, 29, 0);
+    display: inline;
+    min-width: 1156px;
+    border-radius: 1%;
+}
+
+header {
+    width: 100%;
+    height: 381px;
+}
+
+.header__total-container {
+    display: flex;
+    height: 300px;
+    background-color: rgb(199, 199, 199, 0.1);
+    width: 92%;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.header__img-container {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin: 70px 0px 0px 60px;
+}
+
+.header__img-container > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header__name-container{
+    margin: 0px auto 0px auto;
+    align-items: center;
+}
+
+#name {
+    padding: 20px;
+    font-size: 7.5em;
+    letter-spacing: 7px;
+    background-image: linear-gradient(45deg, #d6ce37, #ad2d52);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-family: "Abel", sans-serif;
+    font-weight: bold;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.about-me__total-container {
+    height: 1100px;
+    margin: 0px auto 0 auto;
+    background-color: rgb(175, 175, 175, 0.35);
+    border-radius: 2%;
+    width: 92%;
+}
+
+.about-me__title-container {
+    text-align: center;
+    padding: 15px;
+}
+
+.about-me__title {
+    color: white;
+    font-size: 2.5em;
+}
+
+.about-me-title-line {
+    width: 7%;
+    border-bottom: 3px solid white ;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+}
+
+.about-me__boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    height: 1000px;
+}
+
+.about-me__text-container {
+    margin-top: 50px;
+    width: 40%;
+    height: 35%;
+    border-radius: 10%;
+    flex-shrink: 20;
+    background-color: rgba(31, 31, 31, 0.4);
+    color: white;
+}
+
+.about-me__text-container:first-child {
+    margin-bottom: 2.5%;
+}
+
+.about-me__text-container:nth-child(2) {
+    height: 30%;
+}
+
+.about-me__info-container {
+    margin-top: 120px;
+    height: 60%;
+    width: 40%;
+    border-radius: 10%;
+    background-color: rgba(31, 31, 31, 0.4);
+    box-sizing: border-box;
+}
+
+#about-me__text-title-1 {
+    text-align: center;
+}
+
+#about-me__text-title-2 {
+    text-align: center;
+}
+
+.about-me__text {
+    margin: 2%;
+    font-size: 1em;
+    line-height: 24px;
+}
+
+.about-me__info {
+    color: white;
+    list-style-type: none;
+}
+
+.about-me__info-item {
+    margin-top: 10%;
+    font-size: 1.25em;
+}
+
+.studies__total-container {
+    margin: 8% auto 0 auto;
+    background-color: rgb(175, 175, 175, 0.35);
+    border-radius: 2%;
+    width: 92%;
+    height: 750px;
+}
+
+.studies__title-container {
+    text-align: center;
+    padding: 70px 15px 15px 15px;
+    margin-bottom: 20px;
+}
+
+.studies__title {
+    color: white;
+    font-size: 2.5em;
+}
+
+.studies__title-line {
+    width: 10%;
+    border-bottom: 3px solid white ;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+}
+
+.studies__info-total-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.studies__info-container {
+    width: 23%;
+    background-color: rgba(31, 31, 31, 0.4);
+    border-radius: 7%;
+}
+
+.studies__info-title {
+    text-align: center;
+    color: white;
+}
+
+.studies__text {
+    padding: 5%;
+    color: white;
+}
+
+.my-experience__total-container {
+    height: 800px;
+    margin: 8% auto 0 auto;
+    background-color: rgb(175, 175, 175, 0.35);
+    border-radius: 2%;
+    width: 92%;
+}
+
+.my-experience__title-container {
+    text-align: center;
+    padding: 2px;
+}
+
+.my-experience__title {
+    color: white;
+    font-size: 2.5em;
+}
+
+.my-experience__title-line {
+    width: 12%;
+    border-bottom: 3px solid white ;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+}
+
+.my-experience__info-container {
+    background-color: rgba(31, 31, 31, 0.4);
+    width: 80%;
+    margin: auto;
+    border-radius: 2%;
+    padding: 20px;
+}
+
+.my-experience__info {
+    font-size: 1.2em;
+    color: white;
+    text-align: justify;
+    vertical-align: center;
+}
+
+.my-experience__info-item {
+    margin: 7% 0;
+}
+
+.contact__total-container {
+    height: 680px;
+    margin: 8% auto 0 auto;
+    background-color: rgb(175, 175, 175, 0.35);
+    border-radius: 2%;
+    width: 92%;
+}
+
+.contact__title-container {
+    padding-top: 20px;
+}
+
+.contact__title {
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+
+.contact__title-line {
+    width: 12%;
+    border-bottom: 3px solid white ;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+}
+
+.contact__info-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__form-container {
+    width: 400px;
+}
+
+.contact__form-title {
+    color: white;
+}
+
+.contact__form {
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-items {
+    margin: 8px 0px;
+    height: 50px;
+    background-color: transparent;
+    border: 4px solid rgb(5, 34, 128);
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 70%;
+    padding: 8px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.form-items:focus {
+    margin: 8px 0px;
+    height: 50px;
+    background-color: transparent;
+    border: 4px solid rgb(6, 42, 163);
+    border-radius: 5px;
+    font-size: 15px;
+    width: 75%;
+    padding: 8px;
+    box-sizing: none;
+}
+
+
+.contact__form > textarea {
+    resize: none;
+    height: 175px;
+    width: 92%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.contact__form > textarea:focus {
+    height: 180px;
+    width: 95%;
+}
+
+#form-submit {
+    background-color: rgb(5, 34, 128);
+    width: 30%;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: rgb(201, 201, 201);
+    font-family: "Poppins", sans-serif;
+    margin-top: 3%;
+}
+
+#form-submit:hover {
+    background-color: rgb(6, 42, 163);
+}
+
+#form-submit:focus {
+    background-color: rgb(5, 45, 173);
+}
+
+.contact__icons-total-container {
+    max-width: 280px;
+    margin-top: 5%;
+}
+
+.contact__icons-title {
+    text-align: center;
+    color: white;
+    margin-bottom: 6%;
+}
+
+.contact__icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background-color: #3C6598;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-twitter:hover {
+    background: #55BCEE;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background: #126688;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-linkedin:hover {
+    background: #008bb5;
+}
+
+footer {
+    height: 25px;
+    background-color: transparent;
+    width: 92%;
+    color: white;
+    margin: 20px auto 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+footer > p {
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width:1200px) and (min-width:1025px){
+
+    body {
+        width: 100%;
+        min-width: 1000px;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .header__name-container {
+        max-width: 500px;
+    }
+
+    #name {
+        position: relative;
+        bottom: 90px;
+        text-align: center;
+    }
+
+    .about-me__info-container {
+        height: 55%;
+        width: 45%;
+        margin-top: 170px;
+    }
+
+    .studies__info-container {
+        width: 30%;
+    }
+
+    .about-me__text-container {
+        height: 38%;
+    }
+
+    .about-me__text-container:nth-child(2) {
+        height: 35%;
+    }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px){
+
+    body {
+        width: 100%;
+        min-width: 768px;
+        margin: 0;
+    }
+
+    .header__name-container {
+        max-width: 500px;
+    }
+
+    #name {
+        position: relative;
+        bottom: 40px;
+        text-align: center;
+        font-size: 5.5em;
+
+    }
+
+    .about-me__total-container {
+        width: 98%;
+        height: 1100px;
+    }
+
+    .about-me__boxes-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: flex-start;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        position: relative;
+    }
+
+    .about-me__text-container {
+        width: 45%;
+        border-radius: 10%;
+        flex-shrink: 20;
+        background-color: rgba(31, 31, 31, 0.4);
+        color: white;
+        margin: 0;
+        position: relative;
+    }
+    
+    .about-me__text-container:first-child {
+        margin: 0 60px 2.5% 5px;
+
+    }
+    
+    .about-me__text-container:nth-child(2) {
+        order: 5;
+    }
+    
+    .about-me__info-container {
+        width: 80%;
+        height: 45%;
+        order: 15;
+        margin: 20px auto;
+    }
+
+    .about-me__info-item {
+        margin-top: 5%;
+    }
+
+    .studies__total-container {
+        height: 1000px;
+    }
+
+    .studies__info-total-container {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    
+    .studies__info-container {
+        width: 80%;
+        background-color: rgba(31, 31, 31, 0.4);
+        border-radius: 5%;
+       margin: 20px auto;
+    }
+    
+    .studies__info-title {
+        text-align: center;
+        color: white;
+    }
+    
+    .studies__text {
+        color: white;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+
+    body {
+        width: 100%;
+        min-width: 481px;
+        margin: 0;
+        background: linear-gradient(rgb(0, 40, 92), rgb(7, 0, 46), rgb(0, 40, 92));
+    }
+
+    header {
+        width: 100%;
+        height: 381px;
+    }
+    
+    .header__total-container {
+        display: flex;
+        height: 300px;
+        background-color: rgb(199, 199, 199, 0.1);
+        width: 100%;
+        margin: auto;
+        border-radius: 5%;
+        justify-content: space-evenly;
+    }
+    
+    .header__img-container {
+        border-radius: 50%;
+        height: 140px;
+        width: 140px;
+        margin: 80px 10px 0px 30px;
+    }
+    
+    .header__img-container > img {
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .header__name-container{
+        margin: 0px auto 0px auto;
+        align-items: center;
+        width: 300px;
+    }
+
+    #name {
+        padding: 0px;
+        font-size: 4.5em;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    
+
+    main {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .about-me__total-container {
+        width: 100%;
+        height: 1450px;
+    }
+
+    .about-me__boxes-container {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: space-around;
+        height: 100%;
+    }
+
+    .about-me__text-container {
+        width: 95%;
+        margin: 50px auto 0 auto;
+        height: 25%;
+        border-radius: 10%;
+        flex-shrink: 20;
+        background-color: rgba(31, 31, 31, 0.4);
+        color: white;
+    }
+    
+    .about-me__text-container:first-child {
+        margin-bottom: 2.5%;
+    }
+    
+    .about-me__text-container:nth-child(2) {
+        height: 25%;
+    }
+
+    .about-me__info-container {
+        width: 80%;
+        height: 27%;
+        order: 15;
+        margin: 50px auto;
+    }
+
+    .about-me__info-item {
+        margin-top: 5%;
+        font-size: 1em;
+    }
+
+    .studies__total-container {
+        width: 100%;
+        height: 1100px;
+    }
+
+    .studies__title-container {
+        padding: 40px 15px 15px 10px;
+    }
+
+    .studies__info-total-container {
+        flex-direction: column;
+    }
+
+    .studies__info-container {
+        width: 95%;
+        background-color: rgba(31, 31, 31, 0.4);
+        border-radius: 7%;
+        height: 30%;
+        margin: 20px auto;
+    }
+    
+    .studies__info-title {
+        text-align: center;
+        color: white;
+    }
+    
+    .studies__text {
+        padding: 2%;
+        color: white;
+    }
+
+    .my-experience__total-container {
+        height: 800px;
+        width: 100%;
+    }
+
+    .my-experience__info-container {
+        background-color: rgba(31, 31, 31, 0.4);
+        width: 90%;
+        margin: auto;
+        border-radius: 2%;
+        padding: 20px;
+    }
+    
+    .my-experience__info-item {
+        margin: 5% 0;
+    }
+
+    .contact__total-container {
+        height: 900px;
+        width: 100%;
+    }
+
+    .contact__info-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact__form-title {
+        text-align: center;
+    }
+
+    .contact__icons-title {
+        margin-top: 20%;
+    }
+
+
+    
+
+}
+
+@media screen and (max-width: 480px){
+
+    body {
+        width: 100%;
+        min-width: 320px;
+        margin: 0;
+        background: linear-gradient(rgb(0, 40, 92), rgb(7, 0, 46), rgb(0, 40, 92));
+        border-radius: 0;
+    }
+
+    header {
+        width: 100%;
+        height: 700px;
+    }
+    
+    .header__total-container {
+        display: flex;
+        height: 700px;
+        background-color: rgb(199, 199, 199, 0.1);
+        width: 100%;
+        margin: auto;
+        border-radius: 5%;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .header__img-container {
+        border-radius: 50%;
+        min-height: 200px;
+        min-width: 200px;
+        margin: 80px auto 0px auto;
+    }
+    
+    .header__img-container > img {
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    
+    .header__name-container{
+        margin: 0px auto 0px auto;
+        align-items: center;
+        width: 80%;
+        height: 100%;
+    }
+
+    #name {
+        margin-top: 100px;
+        padding: 0px;
+        font-size: 4em;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    
+
+    main {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .about-me__total-container {
+        width: 100%;
+        height: 1450px;
+    }
+
+    .about-me__boxes-container {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: space-around;
+        height: 100%;
+    }
+
+    .about-me__text-container {
+        width: 95%;
+        margin: 50px auto 0 auto;
+        height: 30%;
+        border-radius: 10%;
+        flex-shrink: 20;
+        background-color: rgba(31, 31, 31, 0.4);
+        color: white;
+    }
+    
+    .about-me__text-container:first-child {
+        margin-bottom: 2.5%;
+    }
+    
+    .about-me__text-container:nth-child(2) {
+        height: 25%;
+    }
+
+    .about-me__text {
+        margin: 2%;
+        font-size: 0.8em;
+        line-height: 24px;
+    }
+
+    .about-me__info-container {
+        width: 95%;
+        height: 20%;
+        order: 15;
+        margin: 50px auto;
+    }
+
+    .about-me__info-item {
+        margin-top: 5%;
+        font-size: 0.8em;
+    }
+
+    .studies__total-container {
+        width: 100%;
+        height: 1100px;
+    }
+
+    .studies__title-container {
+        padding: 40px 15px 15px 10px;
+    }
+
+    .studies__info-total-container {
+        flex-direction: column;
+    }
+
+    .studies__info-container {
+        width: 95%;
+        background-color: rgba(31, 31, 31, 0.4);
+        border-radius: 7%;
+        height: 30%;
+        margin: 20px auto;
+    }
+    
+    .studies__info-title {
+        text-align: center;
+        color: white;
+    }
+    
+    .studies__text {
+        padding: 2%;
+        color: white;
+        font-size: 0.9em;
+    }
+
+    .my-experience__total-container {
+        height: 800px;
+        width: 100%;
+    }
+
+    .my-experience__info-container {
+        background-color: rgba(31, 31, 31, 0.4);
+        width: 85%;
+        margin: auto;
+        border-radius: 2%;
+        padding: 20px;
+    }
+    
+    .my-experience__info-item {
+        margin: 5% 0;
+        font-size: 0.8em;
+    }
+
+    .contact__total-container {
+        height: 900px;
+        width: 100%;
+    }
+
+    .contact__info-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact__form-container {
+        width: 320px;
+    }
+
+    .contact__form-title {
+        text-align: center;
+    }
+
+    .contact__icons-title {
+        margin-top: 20%;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}
